@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#onF5Clicked" prefHeight="942.0" prefWidth="1424.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tenaya.suomi.tampere.logistiikka.logistiikka.MainSceneController">
+   <children>
+      <AnchorPane layoutX="391.0" layoutY="381.0" />
+      <TableView fx:id="table" layoutX="57.0" layoutY="381.0" prefHeight="268.0" prefWidth="1297.0" stylesheets="@table-view-style.css">
+        <columns>
+          <TableColumn fx:id="nimi" prefWidth="125" text="Nimi" />
+          <TableColumn fx:id="one" prefWidth="45" text="1" />
+            <TableColumn fx:id="oneH" prefWidth="45" text="1.5" />
+            <TableColumn fx:id="two" minWidth="9.0" prefWidth="45" text="2" />
+            <TableColumn fx:id="twoH" minWidth="0.0" prefWidth="45" text="2.5" />
+            <TableColumn fx:id="three" minWidth="4.0" prefWidth="45" text="3" />
+            <TableColumn fx:id="threeH" minWidth="4.0" prefWidth="45" text="3.5" />
+            <TableColumn fx:id="four" prefWidth="45" text="4" />
+            <TableColumn fx:id="fourH" minWidth="6.0" prefWidth="45" text="4.5" />
+            <TableColumn fx:id="five" prefWidth="45" text="5" />
+            <TableColumn fx:id="fiveH" prefWidth="45" text="5.5" />
+            <TableColumn fx:id="six" prefWidth="45" text="6" />
+            <TableColumn fx:id="sixH" minWidth="7.0" prefWidth="45" text="6.5" />
+            <TableColumn fx:id="seven" minWidth="4.0" prefWidth="45" text="7" />
+            <TableColumn fx:id="sevenH" prefWidth="45" text="7.5" />
+            <TableColumn fx:id="eight" prefWidth="45" text="8" />
+            <TableColumn fx:id="eightH" prefWidth="45" text="8.5" />
+            <TableColumn fx:id="nine" prefWidth="45" text="9" />
+            <TableColumn fx:id="nineH" prefWidth="45" text="9.5" />
+            <TableColumn fx:id="ten" prefWidth="45" text="10" />
+            <TableColumn fx:id="tenH" prefWidth="45" text="10.5" />
+            <TableColumn fx:id="eleven" prefWidth="45" text="11" />
+            <TableColumn fx:id="elevenH" prefWidth="45" text="11.5" />
+            <TableColumn fx:id="twelve" prefWidth="45" text="12" />
+            <TableColumn fx:id="twelveH" prefWidth="45" text="12.5" />
+            <TableColumn fx:id="thirteen" prefWidth="45" text="13" />
+            <TableColumn fx:id="all" prefWidth="45" text="Yht." />
+        </columns>
+      </TableView>
+      <Button fx:id="addButton" layoutX="234.0" layoutY="745.0" mnemonicParsing="false" onAction="#onAddButtonClicked" prefHeight="59.0" prefWidth="141.0" text="Lisääminen" />
+      <Button fx:id="shipmentButton" layoutX="1015.0" layoutY="745.0" mnemonicParsing="false" onMouseClicked="#onShipmentButtonClicked" prefHeight="59.0" prefWidth="141.0" text="Poisto" />
+      <Text fx:id="errorText" layoutX="642.0" layoutY="779.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="141.0" />
+   </children>
+</AnchorPane>
