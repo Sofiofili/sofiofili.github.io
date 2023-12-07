@@ -1,3 +1,9 @@
+/*
+* This is a project to store different shoe models in a virtual storage application
+* made by: Aaro Karhu
+* Email: aaro.karhu19@gmail.com
+*/
+
 package tenaya.suomi.tampere.logistiikka.logistiikka;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
